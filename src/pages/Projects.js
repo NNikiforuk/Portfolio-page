@@ -9,7 +9,7 @@ export default function Projects() {
 			<h1 className="projectsH1">My projects</h1>
 			<div className="projectsList">
 				{projectList.map((project, index) => {
-					return <ProjectItem name={project.name} image={project.image} id={index} />;
+					return <ProjectItem name={project.name} image={project.image} id={index} key={index} />;
 				})}
 			</div>
 		</div>
