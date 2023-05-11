@@ -2,6 +2,7 @@
 
 <h1 align="center"> My Portfolio page </h4>
 <p align="center">
+![localhost_3000_projects](https://github.com/NNikiforuk/Portfolio-page/assets/104830490/a0868a7f-a9f3-426d-9c30-fb649abdfee2)
 
 
 </p>
@@ -10,13 +11,11 @@
 
 ## Key Features
 
-* Plain JavaScript
-* Searching flights and its price thanks to Skyscanner API
-* Current weather by origin and destination
-* Registration possibility based on Firebase
+* React.js
+* SCSS
+* Material UI
+* React Router
 * Responsive
-* Configured via Webpack
-* Styled in SCSS
 
   
 ## How To Use
@@ -25,10 +24,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/NNikiforuk/lookup
+$ git clone https://github.com/NNikiforuk/Portfolio-page
 
 # Go into the repository
-$ cd lookup
+$ cd Portfolio-page
 
 # Install dependencies
 $ npm install
