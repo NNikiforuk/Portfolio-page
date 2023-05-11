@@ -1,0 +1,96 @@
+.home {
+	width: 100%;
+	align-items: center;
+	color: #408fce;
+
+	.about {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+		width: 100%;
+		height: calc(100vh - 100px);
+		background-color: #408fce;
+		color: #e6e6e4;
+
+		h1 {
+			color: #cbcbcb;
+			height: 50px;
+			font-family: "Nunito", sans-serif;
+			font-size: 28px;
+		}
+
+		.headline {
+			width: 90%;
+			padding: 10px;
+			font-size: 18px;
+
+			svg {
+				cursor: pointer;
+				margin: 20px 10px 20px 10px;
+				font-size: 28px;
+			}
+		}
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 15px;
+		margin-bottom: 15px;
+
+		h2 {
+			color: #408fce;
+			height: 50px;
+			padding: 10px;
+			font-size: 28px;
+		}
+
+		.list {
+			list-style: none;
+			width: 70%;
+
+			.item {
+				padding: 10px;
+
+				h3 {
+					padding: 10px;
+					color:#408fce;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 414px) {
+	.home {
+		.about {
+			.headline {
+				font-size: 22px;
+
+				svg {
+					font-size: 32px;
+				}
+			}
+		}
+
+		.skills {
+			height: 350px;
+
+			h2 {
+				font-size: 32px;
+			}
+
+			.list {
+				.item {
+					h3 {
+						font-size: 22px;
+					}
+				}
+			}
+		}
+	}
+}
