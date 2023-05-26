@@ -1,11 +1,7 @@
 
 
 <h1 align="center"> My Portfolio page </h4>
-<p align="center">
-![localhost_3000_projects](https://github.com/NNikiforuk/Portfolio-page/assets/104830490/a0868a7f-a9f3-426d-9c30-fb649abdfee2)
 
-
-</p>
 
 
 
