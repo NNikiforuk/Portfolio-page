@@ -1,6 +1,36 @@
 .experience {
-    height: calc(100vh - 100px - 150px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	height: calc(100vh - 100px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.experience {
+		height: calc(100vh - 100px - 77px);
+
+		.vertical-timeline-element-title {
+			font-size: 26px;
+			color: #1d405c;
+		}
+
+		.vertical-timeline-element-subtitle {
+			font-size: 24px;
+			padding: 10px;
+		}
+
+		.vertical-timeline-element--work {
+			font-size: 24px;
+		}
+
+		.date {
+			font-size: 22px;
+		}
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.experience {
+		height: calc(100vh - 100px - 62px);
+	}
 }

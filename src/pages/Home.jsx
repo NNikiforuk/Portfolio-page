@@ -1,8 +1,6 @@
-import "../styles/Home.scss"
+import "../styles/Home.scss";
 
-import MailIcon from "@mui/icons-material/MailOutlineRounded";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import Socials from "../components/Socials"
 
 export default function Home() {
 	return (
@@ -10,13 +8,8 @@ export default function Home() {
 			<div className="about">
 				<h1>Hi! I'm Natalia</h1>
 				<div className="headline">
-					<p>
-						A wanna be front-end developer with a passion for learning new
-						things
-					</p>
-					<MailIcon />
-					<GitHubIcon />
-					<LinkedInIcon />
+					<p>Front-end developer with a passion for learning new things</p>
+					<Socials />
 				</div>
 			</div>
 			<div className="skills">
@@ -24,7 +17,11 @@ export default function Home() {
 				<ol className="list">
 					<li className="item">
 						<h3>Front-end</h3>
-						<div className="details">HTML, CSS, Javascript, NPM, ReactJS, SCSS, Flexbox, Grid, Bootstrap, MaterialUI</div>
+						<div className="details">
+							<p>HTML, Javascript, ReactJS</p>
+							<p>CSS, SCSS, Flexbox, Grid, Bootstrap, MaterialUI</p>
+							<p>npm, Firebase, API, webpack</p>
+						</div>
 					</li>
 					<li className="item">
 						<h3>Languages</h3>

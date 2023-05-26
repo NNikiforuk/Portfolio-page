@@ -1,4 +1,4 @@
-import Pro1 from "../assets/a-toast-g3d26e2f5f_1920.jpg";
+import Pro1 from "../assets/lookup.jpg";
 import Pro2 from "../assets/cat-g2c55b1e27_1920.jpg";
 import Pro3 from "../assets/cat-g64b772945_1920.jpg";
 import Pro4 from "../assets/jungle-g254e150a6_1920.jpg";
@@ -7,10 +7,10 @@ import Pro6 from "../assets/woman-gab4f4841e_1920.jpg";
 
 export const projectList = [
 	{
-		name: "Project #1",
+		name: "lookUp",
 		key: 1,
 		image: Pro1,
-		skills: "propropropropropro",
+		skills: "Javascript, SCSS, API, Firebase, webpack, axios",
 	},
 	{
 		name: "Project #2",

@@ -13,7 +13,11 @@ export default function Education() {
 			<VerticalTimeline lineColor="#e9d35b">
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
-					date="10.2022 - 06.2023"
+					date={
+						<>
+							<span className="date">10.2022 - 06.2023</span>
+						</>
+					}
 					iconStyle={{ background: "#e9d35b", color: "#fff" }}
 					icon={<SchoolIcon />}
 					contentStyle={{ color: "#408fce", fontSize: "14px" }}
@@ -29,7 +33,11 @@ export default function Education() {
 
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
-					date="10.2014 - 06.2019"
+					date={
+						<>
+							<span className="date">10.2014 - 06.2019</span>
+						</>
+					}
 					iconStyle={{ background: "#e9d35b", color: "#fff" }}
 					icon={<SchoolIcon />}
 					contentStyle={{ color: "#408fce", fontSize: "14px" }}

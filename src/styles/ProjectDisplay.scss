@@ -4,43 +4,56 @@
 	align-items: center;
 	flex-direction: column;
 	width: 100%;
-	height: calc(100vh - 100px);
+	height: 100vh;
 
 	h1 {
 		margin: 30px;
 		color: #408fce;
+		font-size: 22px;
 	}
 
 	img {
-		width: 200px;
-		height: 200px;
+		max-width: 250px;
 		border-radius: 10px;
 		background-position: center;
 	}
 	p,
-	svg {
+	.contactIcon {
 		color: #408fce;
-	}
-
-	svg {
-		margin: 30px 0 20px 0;
-		font-size: 32px;
+		margin-top: 32px;
+		font-size: 36px;
 	}
 
 	p {
-		font-size: 22px;
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 320px) {
+	.project {
+		height: 100vh;
+
+		p {
+			font-size: 18px;
+			margin-top: 22px;
+		}
+
+		.contactIcon {
+			font-size: 26px;
+		}
 	}
 }
 
 @media only screen and (min-width: 768px) {
-    .project {
-        img {
-            width: 700px;
-            height: 500px;
-        }
+	.project {
+		height: calc(100vh - 100px - 62px);
 
-        svg {
-            font-size: 48px;
-        }
-    }
+		.contactIcon {
+			font-size: 32px;
+		}
+
+		img {
+			max-width: 400px;
+		}
+	}
 }

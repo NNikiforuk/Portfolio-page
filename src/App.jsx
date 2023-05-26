@@ -6,9 +6,8 @@ import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Education from "./pages/Education";
 import ProjectDisplay from "./pages/ProjectDisplay";
-
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
 	return (

@@ -10,7 +10,7 @@
 		flex-direction: column;
 		text-align: center;
 		width: 100%;
-		height: calc(100vh - 100px);
+		height: calc(80vh - 100px);
 		background-color: #408fce;
 		color: #e6e6e4;
 
@@ -26,10 +26,11 @@
 			padding: 10px;
 			font-size: 18px;
 
-			svg {
+			.contactIcon {
 				cursor: pointer;
 				margin: 20px 10px 20px 10px;
 				font-size: 28px;
+				color: #cbcbcb;
 			}
 		}
 	}
@@ -58,7 +59,13 @@
 
 				h3 {
 					padding: 10px;
-					color:#408fce;
+					color: #408fce;
+				}
+
+				.details {
+					p {
+						padding: 5px;
+					}
 				}
 			}
 		}
@@ -88,6 +95,75 @@
 				.item {
 					h3 {
 						font-size: 22px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 414px) {
+	.home {
+		.about {
+			.headline {
+				font-size: 28px;
+			}
+		}
+
+		.skills {
+			height: 350px;
+
+			h2 {
+				font-size: 32px;
+			}
+
+			.list {
+				.item {
+					h3 {
+						font-size: 22px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.home {
+
+		.about {
+
+			.headline {
+				font-size: 28px;
+
+				.contactIcon {
+					font-size: 42px;
+				}
+			}
+		}
+
+		.skills {
+
+			h2 {
+				font-size: 32px;
+			}
+
+			.list {
+
+				.item {
+
+					h3 {
+						font-size: 28px;
+					}
+
+					.details {
+						p {
+							font-size: 24px;
+						}
+					}
+
+					.items {
+						font-size: 24px;
 					}
 				}
 			}

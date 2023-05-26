@@ -1,6 +1,36 @@
 .education {
-	height: calc(100vh - 100px - 150px);
+	height: calc(100vh - 100px);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.education {
+		height: calc(100vh - 100px - 77px);
+
+		.vertical-timeline-element-title {
+			font-size: 26px;
+			color: #1d405c;
+		}
+
+		.vertical-timeline-element-subtitle {
+			font-size: 24px;
+			padding: 10px;
+		}
+
+		p {
+			font-size: 22px;
+		}
+
+		.date {
+			font-size: 20px;
+		}
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.education {
+		height: calc(100vh - 100px - 62px);
+	}
 }

@@ -4,7 +4,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import WorkIcon from "@mui/icons-material/Work";
-import "../styles/Experience.scss"
+import "../styles/Experience.scss";
 
 export default function Experience() {
 	return (
@@ -12,10 +12,14 @@ export default function Experience() {
 			<VerticalTimeline lineColor="#e9d35b">
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					date="07.2021 - 04.2022"
+					date={
+						<>
+							<span className="date">07.2021 - 04.2022</span>
+						</>
+					}
 					iconStyle={{ background: "#e9d35b", color: "#fff" }}
 					icon={<WorkIcon />}
-					contentStyle={{ color: "#408fce", fontSize: "14px" }}
+					contentStyle={{ color: "#408fce" }}
 				>
 					<h3 className="vertical-timeline-element-title">
 						Deputy Complaint Department Manager
@@ -24,10 +28,14 @@ export default function Experience() {
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					date="12.2020 - 06.2021"
+					date={
+						<>
+							<span className="date">12.2020 - 06.2021</span>
+						</>
+					}
 					iconStyle={{ background: "#e9d35b", color: "#fff" }}
 					icon={<WorkIcon />}
-					contentStyle={{ color: "#408fce", fontSize: "14px" }}
+					contentStyle={{ color: "#408fce" }}
 				>
 					<h3 className="vertical-timeline-element-title">
 						Senior Complaint Specialist
@@ -36,10 +44,14 @@ export default function Experience() {
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					date="12.2019 - 11.2020"
+					date={
+						<>
+							<span className="date">12.2019 - 11.2020</span>
+						</>
+					}
 					iconStyle={{ background: "#e9d35b", color: "#fff" }}
 					icon={<WorkIcon />}
-					contentStyle={{ color: "#408fce", fontSize: "14px" }}
+					contentStyle={{ color: "#408fce" }}
 				>
 					<h3 className="vertical-timeline-element-title">
 						Complaint Specialist
