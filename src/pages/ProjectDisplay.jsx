@@ -13,7 +13,7 @@ export default function ProjectDisplay() {
 		<div className="project">
 			<Link to={project.deploy} target="_blank">
 				<h1>{project.name}</h1>
-				<img src={project.image} alt="project image" />
+				<img src={project.image} alt="project screenshot" />
 			</Link>
 			<Link to={project.github} target="_blank">
 				<GitHubIcon className="contactIcon" />
