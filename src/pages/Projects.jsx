@@ -1,8 +1,6 @@
 import "../styles/Projects.scss"
 import ProjectItem from "../components/ProjectItem";
 import { projectList } from "../helpers/ProjectList";
-import Footer from "../components/Footer"
-
 
 export default function Projects() {
 	return (

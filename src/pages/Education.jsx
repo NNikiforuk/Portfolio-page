@@ -45,6 +45,9 @@ export default function Education() {
 					<h3 className="vertical-timeline-element-title">
 						Management and production engineering
 					</h3>
+					<h4 className="vertical-timeline-element-subtitle">
+						Master of Engineering
+					</h4>
 					<p>Wrocław University of Science and Technology</p>
 				</VerticalTimelineElement>
 			</VerticalTimeline>

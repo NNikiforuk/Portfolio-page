@@ -13,19 +13,15 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="skills">
-				<h2>Skills</h2>
+				<h2>Skills and tools</h2>
 				<ol className="list">
 					<li className="item">
-						<h3>Front-end</h3>
 						<div className="details">
-							<p>HTML, Javascript, ReactJS</p>
-							<p>CSS, SCSS, Flexbox, Grid, Bootstrap, MaterialUI</p>
-							<p>npm, Firebase, API, webpack</p>
+							<p>HTML, Javascript, React.js, Next.js</p>
+							<p>CSS, SCSS, Tailwind</p>
+							<p>Flexbox, Grid, Bootstrap</p>
+							<p>Figma, Firebase, API, git, webpack</p>
 						</div>
-					</li>
-					<li className="item">
-						<h3>Languages</h3>
-						<div className="items">polish (native), english (intermediate)</div>
 					</li>
 				</ol>
 			</div>
