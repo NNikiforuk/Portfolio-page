@@ -4,11 +4,11 @@
 	justify-content: center;
 	flex-direction: column;
 	width: 100%;
-	background-color: #CBCBCB;
+	background-color: #cbcbcb;
 	position: relative;
+	left: 0;
 	bottom: 0;
 	padding: 20px;
-	z-index: -5;
 
 	.year {
 		color: rgb(73, 25, 73);
@@ -18,16 +18,15 @@
 
 @media only screen and (min-width: 768px) {
 	.footer {
-
-	.year {
-		font-size: 32px;
+		
+		.year {
+			font-size: 32px;
+		}
 	}
-}
 }
 
 @media only screen and (min-width: 1024px) {
 	.footer {
-
 		.year {
 			font-size: 18px;
 		}
