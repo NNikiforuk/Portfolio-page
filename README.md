@@ -1,6 +1,6 @@
 
 
-<h1 align="center"> My Portfolio page </h4>![nikidesigns netlify app_(Galaxy Fold) (2)](https://github.com/NNikiforuk/portfolio-page/assets/104830490/46e0ce23-0a8c-4f71-84e0-1fc0cdee2438)
+<h1 align="center"><a target="_blank" href="https://nikidesigns.netlify.app/">My Portfolio page</a>  </h4>
 
 <div align="center">
   <img src="https://github.com/NNikiforuk/portfolio-page/assets/104830490/0d5c446c-e184-4f12-b56f-35bf60da62c9" width="210" />
