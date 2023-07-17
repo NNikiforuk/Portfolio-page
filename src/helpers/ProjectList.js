@@ -26,6 +26,6 @@ export const projectList = [
 		skills:
 			"React.js, Next.js, next-auth, MongoDB, Mongoose, Tailwind, heroicons",
 		github: "https://github.com/NNikiforuk/theOrganist",
-		deploy: "theorganist.vercel.app/",
+		deploy: "https://theorganist.vercel.app/",
 	},
 ];
