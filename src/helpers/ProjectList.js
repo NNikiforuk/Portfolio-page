@@ -1,5 +1,6 @@
 import Pro1 from "../assets/lookup.jpg";
-import Pro2 from "../assets/theorganist.png";
+import Pro2 from "../assets/mylibrary.png";
+import Pro3 from "../assets/theorganist.png";
 
 export const projectList = [
 	{
