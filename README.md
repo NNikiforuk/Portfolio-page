@@ -1,8 +1,13 @@
 
 
-<h1 align="center"> My Portfolio page </h4>
+<h1 align="center"> My Portfolio page </h4>![nikidesigns netlify app_(Galaxy Fold) (2)](https://github.com/NNikiforuk/portfolio-page/assets/104830490/46e0ce23-0a8c-4f71-84e0-1fc0cdee2438)
 
-
+<div align="center">
+  <img src="https://github.com/NNikiforuk/portfolio-page/assets/104830490/0d5c446c-e184-4f12-b56f-35bf60da62c9" width="210" />
+  <img src="https://github.com/NNikiforuk/portfolio-page/assets/104830490/0665c976-54ae-49bc-960c-369edceedd29" width="210" />
+  <img src="https://github.com/NNikiforuk/portfolio-page/assets/104830490/89c634de-d6d5-4074-9708-9a7a1ed72ce5" width="210" />
+  <img src="https://github.com/NNikiforuk/portfolio-page/assets/104830490/b0cf924d-c0b0-4359-8f94-d64a01c06454" width="210" />
+</div>
 
 
 ## Key Features
