@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InfoIcon from "@mui/icons-material/Info";
 
-export default function ProjectItem({ image, name, id, github, deploy }) {
+export default function ProjectItem({ image, name, id, github, deploy, error }) {
 	return (
 		<div className="projectItem">
 			<div className="upper">
@@ -14,6 +14,7 @@ export default function ProjectItem({ image, name, id, github, deploy }) {
 					></div>
 					<h1>{name}</h1>
 				</Link>
+				<p className="error">{error}</p>
 			</div>
 			<div className="below">
 				<Link to={github} target="_blank">

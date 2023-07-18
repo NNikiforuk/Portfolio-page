@@ -46,5 +46,6 @@ export const projectList = [
 			"Authentication via next-auth",
 			"Database in MongoDB",
 		],
+		error: "Right now I am having a problem with auth on Vercel deploy"
 	},
 ];
