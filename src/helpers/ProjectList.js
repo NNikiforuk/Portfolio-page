@@ -10,6 +10,11 @@ export const projectList = [
 		skills: "Javascript, SCSS, weather API, Firebase, webpack, axios",
 		github: "https://github.com/NNikiforuk/lookup",
 		deploy: "https://lookup-nn.netlify.app/",
+		functionalities: [
+			"Searching cheapest flights from Wroclaw",
+			"Authentication in Firebase",
+			"Current weather in origin or destination localization",
+		],
 	},
 	{
 		name: "myLibrary",
@@ -18,6 +23,12 @@ export const projectList = [
 		skills: "React.js, Firebase, SCSS, BEM, Font awesome",
 		github: "https://github.com/NNikiforuk/myLibrary",
 		deploy: "https://nikislibrary.netlify.app/",
+		functionalities: [
+			"Add new or finished books on your web library",
+			"Check how many books you have read",
+			"CRUD for each book",
+			"Authentication in Firebase",
+		],
 	},
 	{
 		name: "theOrganist",
@@ -27,5 +38,13 @@ export const projectList = [
 			"React.js, Next.js, next-auth, MongoDB, Mongoose, Tailwind, heroicons",
 		github: "https://github.com/NNikiforuk/theOrganist",
 		deploy: "https://theorganist.vercel.app/",
+		functionalities: [
+			"App for organists",
+			"Search church songs by catholic time period or name",
+			"Plan your track list",
+			"CRUD for each song",
+			"Authentication via next-auth",
+			"Database in MongoDB",
+		],
 	},
 ];

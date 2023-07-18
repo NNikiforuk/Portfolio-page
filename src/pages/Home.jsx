@@ -1,6 +1,6 @@
 import "../styles/Home.scss";
 
-import Socials from "../components/Socials"
+import Socials from "../components/Socials";
 
 export default function Home() {
 	return (
@@ -17,10 +17,25 @@ export default function Home() {
 				<ol className="list">
 					<li className="item">
 						<div className="details">
-							<p>HTML, Javascript, React.js, Next.js</p>
-							<p>CSS, SCSS, Tailwind</p>
-							<p>Flexbox, Grid, Bootstrap</p>
-							<p>Figma, Firebase, API, git, webpack</p>
+							<ul>
+								<li>HTML</li>
+								<li>Javascript</li>
+								<li>React.js</li>
+								<li>Next.js</li>
+							</ul>
+							<ul>
+								<li>CSS/SCSS</li>
+								<li>Tailwind</li>
+								<li>Flexbox, Grid</li>
+								<li>Bootstrap</li>
+							</ul>
+							<ul>
+								<li>Firebase</li>
+								<li>Figma</li>
+								<li>API</li>
+								<li>git</li>
+								<li>webpack</li>
+							</ul>
 						</div>
 					</li>
 				</ol>

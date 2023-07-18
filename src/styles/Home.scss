@@ -52,19 +52,19 @@
 
 		.list {
 			list-style: none;
-			width: 70%;
+			width: 100%;
 
 			.item {
 				padding: 10px;
 
-				h3 {
-					padding: 10px;
-					color: #408fce;
-				}
-
 				.details {
-					p {
-						padding: 5px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					ul {
+						margin: 15px;
+						list-style: none;
 					}
 				}
 			}
@@ -78,8 +78,8 @@
 			.headline {
 				font-size: 22px;
 
-				svg {
-					font-size: 32px;
+				.contactIcon {
+					font-size: 36px;
 				}
 			}
 		}
@@ -93,34 +93,14 @@
 
 			.list {
 				.item {
-					h3 {
-						font-size: 22px;
-					}
-				}
-			}
-		}
-	}
-}
+					padding: 10px;
 
-@media only screen and (min-width: 414px) {
-	.home {
-		.about {
-			.headline {
-				font-size: 28px;
-			}
-		}
-
-		.skills {
-			height: 350px;
-
-			h2 {
-				font-size: 32px;
-			}
-
-			.list {
-				.item {
-					h3 {
-						font-size: 22px;
+					.details {
+						ul {
+							li {
+								font-size: 18px;
+							}
+						}
 					}
 				}
 			}
@@ -130,14 +110,40 @@
 
 @media only screen and (min-width: 768px) {
 	.home {
-
 		.about {
+			height: auto;
+			padding: 100px;
 
 			.headline {
-				font-size: 28px;
+				font-size: 32px;
+			}
+		}
 
+		.skills {
+			.list {
+				.item {
+					.details {
+						ul {
+							li {
+								font-size: 24px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.home {
+		.about {
+			height: auto;
+			padding: 200px 0 200px 0;
+
+			.headline {
 				.contactIcon {
-					font-size: 42px;
+					font-size: 62px;
 				}
 			}
 		}
@@ -145,25 +151,18 @@
 		.skills {
 
 			h2 {
-				font-size: 32px;
+				font-size: 36px;
 			}
-
 			.list {
-
 				.item {
-
-					h3 {
-						font-size: 28px;
-					}
-
 					.details {
-						p {
-							font-size: 24px;
-						}
-					}
+						ul {
+							margin: 20px;
 
-					.items {
-						font-size: 24px;
+							li {
+								font-size: 28px;
+							}
+						}
 					}
 				}
 			}
