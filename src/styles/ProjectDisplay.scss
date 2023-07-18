@@ -19,7 +19,9 @@
 		background-position: center;
 	}
 
-	h3, p, li {
+	h3,
+	p,
+	li {
 		font-size: 18px;
 		color: #408fce;
 	}
@@ -28,10 +30,10 @@
 		margin: 15px 0 10px 0;
 	}
 
-	ul {
-		margin-bottom: 20px;
+	ol {
+		margin-bottom: 40px;
+		padding: 10px;
 	}
-
 }
 
 @media only screen and (min-width: 320px) {
@@ -45,12 +47,63 @@
 	}
 }
 
+@media only screen and (min-width: 414px) {
+	.project {
+		ol {
+			margin-left: 10px;
+
+			li {
+				text-align: left;
+			}
+		}
+	}
+}
+
 @media only screen and (min-width: 768px) {
 	.project {
-		height: calc(100vh - 100px - 62px);
-
 		img {
 			max-width: 400px;
+		}
+
+		h1 {
+			font-size: 32px;
+		}
+
+		h3 {
+			font-size: 28px;
+		}
+
+		p {
+			font-size: 24px;
+		}
+
+		ol {
+			li {
+				font-size: 24px;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.project {
+		img {
+			margin-bottom: 40px;
+			max-width: 500px;
+		}
+
+		h3 {
+			font-size: 28px;
+		}
+
+		p {
+			font-size: 24px;
+		}
+
+		ol {
+			li {
+				font-size: 24px;
+			}
 		}
 	}
 }

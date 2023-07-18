@@ -7,7 +7,7 @@ export const projectList = [
 		name: "lookUp",
 		key: 1,
 		image: Pro1,
-		skills: "Javascript, SCSS, weather API, Firebase, webpack, axios",
+		skills: "Javascript, SCSS, weather API, Firebase, webpack",
 		github: "https://github.com/NNikiforuk/lookup",
 		deploy: "https://lookup-nn.netlify.app/",
 		functionalities: [
