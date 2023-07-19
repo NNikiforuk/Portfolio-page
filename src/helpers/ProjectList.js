@@ -45,7 +45,6 @@ export const projectList = [
 			"CRUD for each song",
 			"Authentication via next-auth",
 			"Database in MongoDB",
-		],
-		error: "Right now I am having a problem with auth on Vercel deploy"
+		]
 	},
 ];
