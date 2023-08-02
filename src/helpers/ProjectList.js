@@ -37,7 +37,7 @@ export const projectList = [
 		skills:
 			"React.js, Next.js, next-auth, MongoDB, Mongoose, Tailwind, heroicons",
 		github: "https://github.com/NNikiforuk/theOrganist",
-		deploy: "https://theorganist.vercel.app/",
+		deploy: "https://the-organist-git-main-nnikiforuk.vercel.app/",
 		functionalities: [
 			"App for organists",
 			"Search church songs by catholic time period or name",
