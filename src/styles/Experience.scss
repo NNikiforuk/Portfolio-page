@@ -1,5 +1,5 @@
 .experience {
-	height: calc(100vh - 100px);
+	margin: 20px 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -7,8 +7,6 @@
 
 @media only screen and (min-width: 768px) {
 	.experience {
-		height: calc(100vh - 100px - 77px);
-
 		.vertical-timeline-element-title {
 			font-size: 26px;
 			color: #1d405c;
@@ -26,11 +24,5 @@
 		.date {
 			font-size: 22px;
 		}
-	}
-}
-
-@media only screen and (min-width: 1024px) {
-	.experience {
-		height: calc(100vh - 100px - 62px);
 	}
 }
