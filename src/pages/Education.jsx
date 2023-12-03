@@ -10,7 +10,8 @@ import "../styles/Education.scss";
 export default function Education() {
 	return (
 		<div className="education">
-			<VerticalTimeline lineColor="#e9d35b">
+			<h1 className="projectsH1">Education</h1>
+			<VerticalTimeline lineColor="rgb(206, 186, 71)">
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
 					date={
@@ -18,9 +19,14 @@ export default function Education() {
 							<span className="date">10.2022 - 06.2023</span>
 						</>
 					}
-					iconStyle={{ background: "#e9d35b", color: "#fff" }}
+					iconStyle={{ background: "rgb(206, 186, 71)", color: "#d4d4d1" }}
 					icon={<SchoolIcon />}
-					contentStyle={{ color: "#408fce", fontSize: "14px" }}
+					contentStyle={{
+						color: "#d4d4d1",
+						fontSize: "14px",
+						backgroundColor: "black",
+						boxShadow: "0px 0px 24px 0px rgb(33, 30, 30)",
+					}}
 				>
 					<h3 className="vertical-timeline-element-title">
 						Front-end developer
@@ -38,9 +44,14 @@ export default function Education() {
 							<span className="date">10.2018 - 02.2019 (winter semester)</span>
 						</>
 					}
-					iconStyle={{ background: "#e9d35b", color: "#fff" }}
+					iconStyle={{ background: "rgb(206, 186, 71)", color: "#d4d4d1" }}
 					icon={<SchoolIcon />}
-					contentStyle={{ color: "#408fce", fontSize: "14px" }}
+					contentStyle={{
+						color: "#d4d4d1",
+						fontSize: "14px",
+						backgroundColor: "black",
+						boxShadow: "0px 0px 24px 0px rgb(33, 30, 30)",
+					}}
 				>
 					<h3 className="vertical-timeline-element-title">Erasmus</h3>
 					<h4 className="vertical-timeline-element-subtitle">Logistics</h4>
@@ -54,9 +65,14 @@ export default function Education() {
 							<span className="date">03.2018 - 07.2019</span>
 						</>
 					}
-					iconStyle={{ background: "#e9d35b", color: "#fff" }}
+					iconStyle={{ background: "rgb(206, 186, 71)", color: "#d4d4d1" }}
 					icon={<SchoolIcon />}
-					contentStyle={{ color: "#408fce", fontSize: "14px" }}
+					contentStyle={{
+						color: "#d4d4d1",
+						fontSize: "14px",
+						backgroundColor: "black",
+						boxShadow: "0px 0px 24px 0px rgb(33, 30, 30)",
+					}}
 				>
 					<h3 className="vertical-timeline-element-title">
 						Management and production engineering
@@ -74,9 +90,14 @@ export default function Education() {
 							<span className="date">10.2014 - 02.2018</span>
 						</>
 					}
-					iconStyle={{ background: "#e9d35b", color: "#fff" }}
+					iconStyle={{ background: "rgb(206, 186, 71)", color: "#d4d4d1" }}
 					icon={<SchoolIcon />}
-					contentStyle={{ color: "#408fce", fontSize: "14px" }}
+					contentStyle={{
+						color: "#d4d4d1",
+						fontSize: "14px",
+						backgroundColor: "black",
+						boxShadow: "0px 0px 24px 0px rgb(33, 30, 30)",
+					}}
 				>
 					<h3 className="vertical-timeline-element-title">
 						Management and production engineering

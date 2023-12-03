@@ -8,19 +8,19 @@ export const projectList = [
 		name: "Językowy punkt widzenia",
 		key: 1,
 		image: Pro1,
-		skills: "React.js, Next.js, TypeScript, SCSS",
+		skills: ["React", "Next.js", "TypeScript", "SCSS"],
 		github: "https://github.com/NNikiforuk/Jezykowy-punkt-widzenia",
-		deploy: "https://jezykowy-punkt-widzenia.vercel.app",
+		deploy: "https://www.jpw-kursy.pl/",
 		functionalities: [
-			"Commercial website for polish language school",
-			"Deployed on Vercel (hosting on-going)"
+			"Commercial website for language school",
+			"Re-writed from pure JavaScript",
 		],
 	},
 	{
 		name: "lookUp",
 		key: 2,
 		image: Pro2,
-		skills: "Javascript, SCSS, weather API, Firebase, webpack",
+		skills: ["JavaScript", "SCSS", "weather API", "Firebase", "webpack"],
 		github: "https://github.com/NNikiforuk/lookup",
 		deploy: "https://lookup-nn.netlify.app/",
 		functionalities: [
@@ -33,7 +33,7 @@ export const projectList = [
 		name: "myLibrary",
 		key: 3,
 		image: Pro3,
-		skills: "React.js, Firebase, SCSS, BEM, Font awesome",
+		skills: ["React", "Firebase", "SCSS", "BEM", "Font awesome"],
 		github: "https://github.com/NNikiforuk/myLibrary",
 		deploy: "https://nikislibrary.netlify.app/",
 		functionalities: [
@@ -47,8 +47,15 @@ export const projectList = [
 		name: "theOrganist",
 		key: 4,
 		image: Pro4,
-		skills:
-			"React.js, Next.js, next-auth, MongoDB, Mongoose, Tailwind, heroicons",
+		skills: [
+			"React",
+			"Next.js",
+			"next-auth",
+			"MongoDB",
+			"Mongoose",
+			"Tailwind",
+			"heroicons",
+		],
 		github: "https://github.com/NNikiforuk/theOrganist",
 		deploy: "https://the-organist-git-main-nnikiforuk.vercel.app/",
 		functionalities: [
@@ -58,6 +65,6 @@ export const projectList = [
 			"CRUD for each song",
 			"Authentication via next-auth",
 			"Database in MongoDB",
-		]
+		],
 	},
 ];

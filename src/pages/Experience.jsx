@@ -9,8 +9,8 @@ import "../styles/Experience.scss";
 export default function Experience() {
 	return (
 		<div className="experience">
-			<VerticalTimeline lineColor="#e9d35b">
-
+			<h1 className="projectsH1">Experience</h1>
+			<VerticalTimeline lineColor="rgb(206, 186, 71)">
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
 					date={
@@ -18,9 +18,13 @@ export default function Experience() {
 							<span className="date">05.2022 - present</span>
 						</>
 					}
-					iconStyle={{ background: "#e9d35b", color: "#fff" }}
+					iconStyle={{ background: "rgb(206, 186, 71)", color: "#d4d4d1" }}
 					icon={<WorkIcon />}
-					contentStyle={{ color: "#408fce" }}
+					contentStyle={{
+						color: "#d4d4d1",
+						backgroundColor: "black",
+						boxShadow: "0px 0px 24px 0px rgb(33, 30, 30)",
+					}}
 				>
 					<h3 className="vertical-timeline-element-title">
 						Learning programming
@@ -34,9 +38,13 @@ export default function Experience() {
 							<span className="date">07.2021 - 04.2022</span>
 						</>
 					}
-					iconStyle={{ background: "#e9d35b", color: "#fff" }}
+					iconStyle={{ background: "rgb(206, 186, 71)", color: "#d4d4d1" }}
 					icon={<WorkIcon />}
-					contentStyle={{ color: "#408fce" }}
+					contentStyle={{
+						color: "#d4d4d1",
+						backgroundColor: "black",
+						boxShadow: "0px 0px 24px 0px rgb(33, 30, 30)",
+					}}
 				>
 					<h3 className="vertical-timeline-element-title">
 						Deputy Complaint Department Manager
@@ -51,9 +59,13 @@ export default function Experience() {
 							<span className="date">12.2020 - 06.2021</span>
 						</>
 					}
-					iconStyle={{ background: "#e9d35b", color: "#fff" }}
+					iconStyle={{ background: "rgb(206, 186, 71)", color: "#d4d4d1" }}
 					icon={<WorkIcon />}
-					contentStyle={{ color: "#408fce" }}
+					contentStyle={{
+						color: "#d4d4d1",
+						backgroundColor: "black",
+						boxShadow: "0px 0px 24px 0px rgb(33, 30, 30)",
+					}}
 				>
 					<h3 className="vertical-timeline-element-title">
 						Senior Complaint Specialist
@@ -67,9 +79,13 @@ export default function Experience() {
 							<span className="date">12.2019 - 11.2020</span>
 						</>
 					}
-					iconStyle={{ background: "#e9d35b", color: "#fff" }}
+					iconStyle={{ background: "rgb(206, 186, 71)", color: "#d4d4d1" }}
 					icon={<WorkIcon />}
-					contentStyle={{ color: "#408fce" }}
+					contentStyle={{
+						color: "#d4d4d1",
+						backgroundColor: "black",
+						boxShadow: "0px 0px 24px 0px rgb(33, 30, 30)",
+					}}
 				>
 					<h3 className="vertical-timeline-element-title">
 						Complaint Specialist

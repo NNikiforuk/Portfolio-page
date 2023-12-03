@@ -18,16 +18,21 @@ export default function ProjectDisplay() {
 				<h1>{project.name}</h1>
 				<img src={project.image} alt="project screenshot" />
 			</Link>
-
-			<h3>Used technologies/tools:</h3>
-			<p>{project.skills}</p>
-
-			<h3>Functionalities:</h3>
-			<ol>
-				{project.functionalities.map((el, index) => (
-					<li key={index}>{el}</li>
+			<div className="skills">
+				{project.skills.map((el, index) => (
+					<p className="skill" key={index}>
+						{el}
+					</p>
 				))}
-			</ol>
+			</div>
+			<div className="functionalities">
+				<h3>Functionalities:</h3>
+				<ul>
+					{project.functionalities.map((el, index) => (
+						<li key={index}>{el}</li>
+					))}
+				</ul>
+			</div>
 		</div>
 	);
 }

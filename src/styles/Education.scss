@@ -1,8 +1,14 @@
 .education {
-	margin: 20px 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	background-image: url("/assets/bgc.png");
+	padding: 20px;
+
+	h1 {
+		color: #d4d4d1;
+	}
 }
 
 @media only screen and (min-width: 768px) {
