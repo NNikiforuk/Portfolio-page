@@ -39,32 +39,37 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="skills">
-				<h2>Skills and tools</h2>
-				<ol className="list">
-					<li className="item">
-						<div className="details">
-							<ul>
-								<li>HTML</li>
-								<li>Javascript</li>
-								<li>React.js</li>
-								<li>Next.js</li>
-							</ul>
-							<ul>
-								<li>CSS/SCSS</li>
-								<li>Tailwind</li>
-								<li>Flexbox, Grid</li>
-								<li>Bootstrap</li>
-							</ul>
-							<ul>
-								<li>Firebase</li>
-								<li>Figma</li>
-								<li>API</li>
-								<li>git</li>
-								<li>webpack</li>
-							</ul>
-						</div>
-					</li>
-				</ol>
+				<div className="group">
+					<h3>Programming languages</h3>
+					<ul>
+						<li>JavaScript</li>
+						<li>TypeScript</li>
+						<li>CSS</li>
+						<li>SCSS</li>
+					</ul>
+				</div>
+				<div className="group">
+					<h3>Libraries & frameworks</h3>
+					<ul>
+						<li>React</li>
+						<li>Next.js</li>
+						<li>Tailwind</li>
+					</ul>
+				</div>
+				<div className="group">
+					<h3>Other</h3>
+					<ul>
+						<li>Git</li>
+						<li>GitHub</li>
+						<li>Netlify</li>
+						<li>Vercel</li>
+						<li>Firebase</li>
+						<li>Figma</li>
+						<li>Flexbox</li>
+						<li>Grid</li>
+						<li>Bootstrap</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	);

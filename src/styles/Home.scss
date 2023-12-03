@@ -2,14 +2,11 @@
 	width: 100%;
 	align-items: center;
 	color: #d4d4d1;
-
-
-
-	
+	background-image: url("/assets/bgc.png");
+	background-size: cover;
+	padding: 20px;
 
 	.about {
-		background-image: url("/assets/bcg_small.jpg");
-		padding: 20px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -48,33 +45,24 @@
 	.skills {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		background-image: url("/assets/bcg_small.jpg");
-		padding: 20px;
+		margin-top: 50px;
 
-		h2 {
-			height: 50px;
-			padding: 10px;
-			font-size: 28px;
-		}
+		.group {
+			margin: 20px 0;
 
-		.list {
-			list-style: none;
-			width: 100%;
+			ul {
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+				gap: 5px;
+				margin-top: 20px;
 
-			.item {
-				padding: 10px;
-
-				.details {
-					display: flex;
-					justify-content: center;
-					align-items: center;
-
-					ul {
-						margin: 15px;
-						list-style: none;
-					}
+				li {
+					list-style-type: none;
+					background-color: rgba(rgb(189, 181, 181), .09);
+					border-radius: 8px;
+					padding: 5px;
+					color: #d4d4d1;
 				}
 			}
 		}
