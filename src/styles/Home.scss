@@ -1,36 +1,46 @@
 .home {
 	width: 100%;
 	align-items: center;
-	color: #408fce;
+	color: #d4d4d1;
+
+
+
+	
 
 	.about {
+		background-image: url("/assets/bcg_small.jpg");
+		padding: 20px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
 		text-align: center;
 		width: 100%;
-		background-color: #408fce;
-		color: #e6e6e4;
-		padding: 50px 0 50px 0;
 
 		h1 {
-			color: #cbcbcb;
-			height: 50px;
 			font-family: "Nunito", sans-serif;
-			font-size: 28px;
+			font-size: 22px;
 		}
 
 		.headline {
 			width: 90%;
 			padding: 10px;
 			font-size: 18px;
+			line-height: 25px;
+			margin-top: 30px;
 
-			.contactIcon {
-				cursor: pointer;
-				margin: 20px 10px 20px 10px;
-				font-size: 28px;
-				color: #cbcbcb;
+			.socials {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-top: 60px;
+				gap: 10px;
+
+				.contactIcon {
+					cursor: pointer;
+					font-size: 32px;
+					color: rgb(206, 186, 71);
+				}
 			}
 		}
 	}
@@ -40,11 +50,10 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		padding: 15px;
-		margin-bottom: 15px;
+		background-image: url("/assets/bcg_small.jpg");
+		padding: 20px;
 
 		h2 {
-			color: #408fce;
 			height: 50px;
 			padding: 10px;
 			font-size: 28px;
@@ -179,7 +188,6 @@
 
 @media only screen and (min-width: 1400px) {
 	.home {
-
 		.about {
 			padding: 200px 0 50px 0;
 		}
