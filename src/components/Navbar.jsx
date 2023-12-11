@@ -30,6 +30,12 @@ export default function Navbar() {
 				<Link to={"/experience"}> Experience </Link>
 				<Link to={"/education"}> Education </Link>
 			</div>
+			<div className={`linksIPad ${expandNavbar ? "open" : "close"}`}>
+				<Link to={"/"}> Home </Link>
+				<Link to={"/projects"}> Projects </Link>
+				<Link to={"/experience"}> Experience </Link>
+				<Link to={"/education"}> Education </Link>
+			</div>
 		</nav>
 	);
 }

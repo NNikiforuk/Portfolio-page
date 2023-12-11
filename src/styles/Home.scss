@@ -12,6 +12,8 @@
 		flex-direction: column;
 		text-align: center;
 		width: 100%;
+		border-radius: 15px;
+		background-color: rgba(16, 14, 14, 0.7);
 
 		h1 {
 			font-family: "Nunito", sans-serif;
@@ -45,6 +47,8 @@
 		display: flex;
 		flex-direction: column;
 		margin-top: 50px;
+		border-radius: 15px;
+		background-color: rgba(16, 14, 14, 0.7);
 
 		.group {
 			margin: 20px 0;
@@ -58,7 +62,7 @@
 
 				li {
 					list-style-type: none;
-					background-color: rgba(rgb(189, 181, 181), .09);
+					background-color: rgba(rgb(189, 181, 181), 0.09);
 					border-radius: 8px;
 					padding: 5px;
 					color: #d4d4d1;
@@ -80,31 +84,9 @@
 	.home {
 		.about {
 			.headline {
-				font-size: 22px;
-
-				.contactIcon {
-					font-size: 36px;
-				}
-			}
-		}
-
-		.skills {
-			height: 350px;
-
-			h2 {
-				font-size: 32px;
-			}
-
-			.list {
-				.item {
-					padding: 10px;
-
-					.details {
-						ul {
-							li {
-								font-size: 18px;
-							}
-						}
+				.socials {
+					.contactIcon {
+						font-size: 42px;
 					}
 				}
 			}
@@ -120,19 +102,26 @@
 
 			.headline {
 				font-size: 32px;
+				line-height: 40px;
+
+				.socials {
+					.contactIcon {
+						font-size: 64px;
+					}
+				}
 			}
 		}
 
 		.skills {
-			.list {
-				.item {
-					.details {
-						ul {
-							li {
-								font-size: 24px;
-							}
-						}
-					}
+			font-size: 32px;
+			margin-top: 0;
+
+			.group {
+				margin: 40px 0;
+
+				ul {
+					gap: 15px;
+					margin-top: 30px;
 				}
 			}
 		}
@@ -146,8 +135,14 @@
 			padding: 200px 0 200px 0;
 
 			.headline {
-				.contactIcon {
-					font-size: 62px;
+				.socials {
+					justify-content: center;
+					gap: 35px;
+
+					.contactIcon {
+						font-size: 62px;
+
+					}
 				}
 			}
 		}
@@ -176,7 +171,25 @@
 @media only screen and (min-width: 1400px) {
 	.home {
 		.about {
-			padding: 200px 0 50px 0;
+
+
+			.headline {
+				.socials {
+					gap: 2px;
+					justify-content: center;
+
+					.contactIcon {
+						font-size: 42px;
+						margin: 10px;
+					}
+				}
+			}
+		}
+
+		.skills {
+			margin-top: 0;
+			font-size: 20px;
+			// background-color: transparent;
 		}
 	}
 }

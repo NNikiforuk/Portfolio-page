@@ -1,7 +1,6 @@
 .projects {
 	width: 100vw;
-	height: auto;
-	padding: 20px;
+	min-height: 100vh;
 	background-image: url("/assets/bgc.png");
 	color: #d4d4d1;
 
@@ -21,6 +20,8 @@
 			box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 			border-radius: 8px;
 			margin: 5px 5px 20px 5px;
+			border-radius: 15px;
+		background-color: rgba(16, 14, 14, 0.7);
 
 			.upper {
 				.backgroundImage {
@@ -30,6 +31,7 @@
 					background-repeat: no-repeat;
 					background-size: contain;
 					cursor: pointer;
+					margin-bottom: 20px;
 				}
 
 				h1 {
@@ -80,10 +82,16 @@
 	}
 }
 
+@media only screen and (min-width: 414px) {
+	.projectItem {
+		h1 {
+			margin-top: 20px;
+		}
+	}
+}
+
 @media only screen and (min-width: 768px) {
 	.projects {
-		height: calc(100vh - 207px);
-
 		.projectsH1 {
 			padding: 20px;
 		}
@@ -93,7 +101,7 @@
 
 			.projectItem {
 				width: 230px;
-				height: 350px;
+				height: 400px;
 
 				.upper {
 					.backgroundImage {
@@ -118,8 +126,6 @@
 
 @media only screen and (min-width: 1024px) {
 	.projects {
-		height: calc(100vh - 192px);
-
 		.projectsList {
 			grid-template-columns: 1fr;
 

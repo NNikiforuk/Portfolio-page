@@ -1,10 +1,11 @@
 .education {
-	display: flex;
+	// display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	background-image: url("/assets/bgc.png");
 	padding: 20px;
+	min-height: 100vh;
 
 	h1 {
 		color: #d4d4d1;
@@ -13,9 +14,13 @@
 
 @media only screen and (min-width: 768px) {
 	.education {
+		margin: 0;
+
+		.vertical-timeline-element--education {
+			padding: 20px 40px;
+		}
 		.vertical-timeline-element-title {
-			font-size: 26px;
-			color: #1d405c;
+			font-size: 32px;
 		}
 
 		.vertical-timeline-element-subtitle {
@@ -28,6 +33,21 @@
 		}
 
 		.date {
+			font-size: 20px;
+		}
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	.education {
+		.vertical-timeline-element--education {
+			font-size: 20px;
+			margin-top: 20px;
+		}
+		.vertical-timeline-element-title,
+		p,
+		.date,
+		.vertical-timeline-element-subtitle {
 			font-size: 20px;
 		}
 	}
