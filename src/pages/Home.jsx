@@ -55,7 +55,7 @@ export default function Home() {
 				<div className="group">
 					<h3>Libraries & frameworks</h3>
 					<ul>
-						<li>React</li>
+						<li>React.js</li>
 						<li>Next.js</li>
 						<li>Tailwind</li>
 					</ul>
