@@ -5,6 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import { Link } from "react-router-dom";
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
 export default function Home() {
 	return (
@@ -36,6 +37,9 @@ export default function Home() {
 							<LocalPhoneIcon className="contactIcon" />
 						</Link>
 					</div>
+				</div>
+				<div className="icon">
+					<ArrowDownwardIcon className="arrowIcon" />
 				</div>
 			</div>
 			<div className="skills">

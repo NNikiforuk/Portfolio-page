@@ -8,13 +8,10 @@ export const projectList = [
 		name: "Językowy punkt widzenia",
 		key: 1,
 		image: Pro1,
-		skills: ["React", "Next.js", "TypeScript", "SCSS"],
+		skills: ["React.js", "Next.js", "TypeScript", "SCSS"],
 		github: "https://github.com/NNikiforuk/Jezykowy-punkt-widzenia",
 		deploy: "https://www.jpw-kursy.pl/",
-		functionalities: [
-			"Commercial website for language school",
-			"Re-writed from pure JavaScript",
-		],
+		functionalities: ["Commercial website for language school"],
 	},
 	{
 		name: "lookUp",
@@ -33,7 +30,7 @@ export const projectList = [
 		name: "myLibrary",
 		key: 3,
 		image: Pro3,
-		skills: ["React", "Firebase", "SCSS", "BEM", "Font awesome"],
+		skills: ["React.js", "Firebase", "SCSS", "BEM", "Font awesome"],
 		github: "https://github.com/NNikiforuk/myLibrary",
 		deploy: "https://nikislibrary.netlify.app/",
 		functionalities: [
@@ -48,7 +45,7 @@ export const projectList = [
 		key: 4,
 		image: Pro4,
 		skills: [
-			"React",
+			"React.js",
 			"Next.js",
 			"next-auth",
 			"MongoDB",

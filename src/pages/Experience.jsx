@@ -15,7 +15,7 @@ export default function Experience() {
 					className="vertical-timeline-element--work"
 					date={
 						<>
-							<span className="date">05.2022 - present</span>
+							<span className="date">08.2023 - 12.2023</span>
 						</>
 					}
 					iconStyle={{ background: "rgb(206, 186, 71)", color: "#d4d4d1" }}
@@ -27,7 +27,27 @@ export default function Experience() {
 					}}
 				>
 					<h3 className="vertical-timeline-element-title">
-						Learning programming
+						Complaint Specialist
+					</h3>
+					<h4 className="vertical-timeline-element-subtitle">Fresenius Kabi</h4>
+				</VerticalTimelineElement>
+				<VerticalTimelineElement
+					className="vertical-timeline-element--work"
+					date={
+						<>
+							<span className="date">05.2022 - 07.2023</span>
+						</>
+					}
+					iconStyle={{ background: "rgb(206, 186, 71)", color: "#d4d4d1" }}
+					icon={<WorkIcon />}
+					contentStyle={{
+						color: "#d4d4d1",
+						backgroundColor: "black",
+						boxShadow: "0px 0px 24px 0px rgb(33, 30, 30)",
+					}}
+				>
+					<h3 className="vertical-timeline-element-title">
+						**Learning programming
 					</h3>
 				</VerticalTimelineElement>
 

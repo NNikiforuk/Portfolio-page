@@ -1,3 +1,12 @@
+@keyframes pulse-animation {
+	0% {
+		box-shadow: 0 0 0 0px rgba(#d4d4d1, 0.2);
+	}
+	100% {
+		box-shadow: 0 0 0 20px rgba(#d4d4d1, 0);
+	}
+}
+
 .home {
 	width: 100%;
 	align-items: center;
@@ -40,6 +49,10 @@
 					color: rgb(206, 186, 71);
 				}
 			}
+		}
+
+		.icon {
+			display: none;
 		}
 	}
 
@@ -141,7 +154,6 @@
 
 					.contactIcon {
 						font-size: 62px;
-
 					}
 				}
 			}
@@ -171,8 +183,6 @@
 @media only screen and (min-width: 1400px) {
 	.home {
 		.about {
-
-
 			.headline {
 				.socials {
 					gap: 2px;
@@ -184,12 +194,24 @@
 					}
 				}
 			}
+
+			.icon {
+				display: block;
+				margin-top: 40px;
+
+				.arrowIcon {
+					border-radius: 50%;
+					font-size: 46px;
+					animation: pulse-animation 2s infinite;
+				}
+			}
 		}
 
 		.skills {
 			margin-top: 0;
 			font-size: 20px;
-			// background-color: transparent;
 		}
 	}
 }
+
+
