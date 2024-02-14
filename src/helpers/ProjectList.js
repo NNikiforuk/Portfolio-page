@@ -1,7 +1,7 @@
 import Pro1 from "../assets/jpw.png";
-import Pro2 from "../assets/lookup.jpg";
-import Pro3 from "../assets/mylibrary.png";
-import Pro4 from "../assets/theorganist.png";
+import Pro2 from "../assets/theorganist.png";
+import Pro3 from "../assets/lookup.jpg";
+import Pro4 from "../assets/mylibrary.png";
 
 export const projectList = [
 	{
@@ -14,35 +14,8 @@ export const projectList = [
 		functionalities: ["Commercial website for language school"],
 	},
 	{
-		name: "lookUp",
-		key: 2,
-		image: Pro2,
-		skills: ["JavaScript", "SCSS", "weather API", "Firebase", "webpack"],
-		github: "https://github.com/NNikiforuk/lookup",
-		deploy: "https://lookup-nn.netlify.app/",
-		functionalities: [
-			"Searching cheapest flights from Wroclaw",
-			"Authentication in Firebase",
-			"Current weather in origin or destination localization",
-		],
-	},
-	{
-		name: "myLibrary",
-		key: 3,
-		image: Pro3,
-		skills: ["React.js", "Firebase", "SCSS", "BEM", "Font awesome"],
-		github: "https://github.com/NNikiforuk/myLibrary",
-		deploy: "https://nikislibrary.netlify.app/",
-		functionalities: [
-			"Add new or finished books on your web library",
-			"Check how many books you have read",
-			"CRUD for each book",
-			"Authentication in Firebase",
-		],
-	},
-	{
 		name: "theOrganist",
-		key: 4,
+		key: 2,
 		image: Pro4,
 		skills: [
 			"React.js",
@@ -62,6 +35,33 @@ export const projectList = [
 			"CRUD for each song",
 			"Authentication via next-auth",
 			"Database in MongoDB",
+		],
+	},
+	{
+		name: "lookUp",
+		key: 3,
+		image: Pro2,
+		skills: ["JavaScript", "SCSS", "weather API", "Firebase", "webpack"],
+		github: "https://github.com/NNikiforuk/lookup",
+		deploy: "https://lookup-nn.netlify.app/",
+		functionalities: [
+			"Searching cheapest flights from Wroclaw",
+			"Authentication in Firebase",
+			"Current weather in origin or destination localization",
+		],
+	},
+	{
+		name: "myLibrary",
+		key: 4,
+		image: Pro3,
+		skills: ["React.js", "Firebase", "SCSS", "BEM", "Font awesome"],
+		github: "https://github.com/NNikiforuk/myLibrary",
+		deploy: "https://nikislibrary.netlify.app/",
+		functionalities: [
+			"Add new or finished books on your web library",
+			"Check how many books you have read",
+			"CRUD for each book",
+			"Authentication in Firebase",
 		],
 	},
 ];
