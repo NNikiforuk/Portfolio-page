@@ -16,7 +16,7 @@ export const projectList = [
 	{
 		name: "theOrganist",
 		key: 2,
-		image: Pro4,
+		image: Pro2,
 		skills: [
 			"React.js",
 			"Next.js",
@@ -40,7 +40,7 @@ export const projectList = [
 	{
 		name: "lookUp",
 		key: 3,
-		image: Pro2,
+		image: Pro3,
 		skills: ["JavaScript", "SCSS", "weather API", "Firebase", "webpack"],
 		github: "https://github.com/NNikiforuk/lookup",
 		deploy: "https://lookup-nn.netlify.app/",
@@ -53,7 +53,7 @@ export const projectList = [
 	{
 		name: "myLibrary",
 		key: 4,
-		image: Pro3,
+		image: Pro4,
 		skills: ["React.js", "Firebase", "SCSS", "BEM", "Font awesome"],
 		github: "https://github.com/NNikiforuk/myLibrary",
 		deploy: "https://nikislibrary.netlify.app/",
