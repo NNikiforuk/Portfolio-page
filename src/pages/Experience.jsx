@@ -11,11 +11,36 @@ export default function Experience() {
 		<div className="experience">
 			<h1 className="projectsH1">Experience</h1>
 			<VerticalTimeline lineColor="rgb(206, 186, 71)">
+
+
+
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
 					date={
 						<>
-							<span className="date">11.2023 - present</span>
+							<span className="date">01.2024 - present</span>
+						</>
+					}
+					iconStyle={{ background: "rgb(206, 186, 71)", color: "#d4d4d1" }}
+					icon={<WorkIcon />}
+					contentStyle={{
+						color: "#d4d4d1",
+						backgroundColor: "black",
+						boxShadow: "0px 0px 24px 0px rgb(33, 30, 30)",
+					}}
+				>
+					<h3 className="vertical-timeline-element-title">
+						Freelance front-end developer
+					</h3>
+
+				</VerticalTimelineElement>
+
+
+				<VerticalTimelineElement
+					className="vertical-timeline-element--work"
+					date={
+						<>
+							<span className="date">11.2023 - 03.2024</span>
 						</>
 					}
 					iconStyle={{ background: "rgb(206, 186, 71)", color: "#d4d4d1" }}
@@ -31,6 +56,10 @@ export default function Experience() {
 					</h3>
 					<h4 className="vertical-timeline-element-subtitle">DareIT</h4>
 				</VerticalTimelineElement>
+
+
+
+
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
 					date={
