@@ -95,9 +95,21 @@
 }
 
 @media only screen and (min-width: 1400px) {
-	.navbar {
-		.linksIPad a {
-			font-size: 20px;
-		}
+	.navbar .linksIPad a {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 2560px) {
+	.navbar .linksIPad a {
+		font-size: 36px;
+		margin: 30px;
+	}
+}
+
+@media only screen and (min-width: 3840px) {
+	.navbar .linksIPad a {
+		font-size: 44px;
+		margin: 40px;
 	}
 }

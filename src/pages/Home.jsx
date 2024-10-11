@@ -46,18 +46,25 @@ export default function Home() {
 				<div className="group">
 					<h3>Programming languages</h3>
 					<ul>
-						<li>JavaScript</li>
-						<li>TypeScript</li>
-						<li>CSS</li>
-						<li>SCSS</li>
+						<li>JavaScript/TypeScript</li>
+						<li>Swift (in progress)</li>
 					</ul>
 				</div>
 				<div className="group">
 					<h3>Libraries & frameworks</h3>
 					<ul>
-						<li>React.js</li>
+						<li>React</li>
 						<li>Next.js</li>
+						<li>Astro</li>
+					</ul>
+				</div>
+				<div className="group">
+					<h3>Styling</h3>
+					<ul>
+						<li>CSS/SCSS</li>
 						<li>Tailwind</li>
+						<li>Bootstrap</li>
+						<li>styled-components</li>
 					</ul>
 				</div>
 				<div className="group">
@@ -65,13 +72,10 @@ export default function Home() {
 					<ul>
 						<li>Git</li>
 						<li>GitHub</li>
-						<li>Netlify</li>
-						<li>Vercel</li>
-						<li>Firebase</li>
+						<li>WordPress</li>
 						<li>Figma</li>
-						<li>Flexbox</li>
-						<li>Grid</li>
-						<li>Bootstrap</li>
+						<li>Adobe Photoshop</li>
+						<li>Adobe Illustrator</li>
 					</ul>
 				</div>
 			</div>
