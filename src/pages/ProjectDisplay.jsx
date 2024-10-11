@@ -16,7 +16,7 @@ export default function ProjectDisplay() {
 				target="_blank"
 			>
 				<h1>{project.name}</h1>
-				<img src={project.image} alt="project screenshot" />
+				<img src={project.image} alt="project screenshot" height="auto" width={250} />
 			</Link>
 			<div className="skills">
 				{project.skills.map((el, index) => (
@@ -26,7 +26,7 @@ export default function ProjectDisplay() {
 				))}
 			</div>
 			<div className="functionalities">
-				<h3>Functionalities:</h3>
+				<h3>Description:</h3>
 				<ul>
 					{project.functionalities.map((el, index) => (
 						<li key={index}>{el}</li>

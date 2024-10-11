@@ -8,6 +8,6 @@ export const projectList = [
 		skills: ["Astro", "TypeScript", "Web3Forms", "SCSS"],
 		github: "https://github.com/NNikiforuk/Jezykowy-Punkt-Widzenia-version-4",
 		deploy: "https://www.jpw-kursy.pl/",
-		functionalities: ["Commercial website for language school"],
+		functionalities: ["Commercial website for polish language school"],
 	},
 ];
