@@ -58,6 +58,7 @@
 				list-style: none;
 				padding: 5px;
 				display: inline-block;
+				text-align: left;
 			}
 		}
 	}
@@ -73,12 +74,27 @@
 	}
 }
 
+@media only screen and (min-width: 1200px) {
+	.project {
+
+		.functionalities,
+		.skills {
+			max-width: 500px;
+		}
+	}
+}
+
 @media only screen and (min-width: 2560px) {
 	.project {
 		padding: 40px 0;
 
-		h1 {
-			// font-size: 54px;
+		.functionalities,
+		.skills {
+			max-width: 900px;
+		}
+
+		.functionalities ul li {
+			padding-bottom: 20px;
 		}
 
 		img {
@@ -93,10 +109,6 @@
 
 @media only screen and (min-width: 3840px) {
 	.project {
-		h1 {
-			// font-size: 64px;
-		}
-
 		img {
 			max-width: 900px;
 			padding-top: 50px;
