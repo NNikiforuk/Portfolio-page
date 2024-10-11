@@ -19,7 +19,7 @@ export default function Home() {
 					/>
 				</h1>
 				<div className="headline">
-					Junior Front-end developer with a passion for learning new things
+					Junior Front-end developer
 					<div className="socials">
 						<Link to="https://github.com/NNikiforuk" target="_blank">
 							<GitHubIcon className="contactIcon" />

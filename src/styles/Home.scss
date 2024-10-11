@@ -2,6 +2,7 @@
 	0% {
 		box-shadow: 0 0 0 0px rgba(#d4d4d1, 0.2);
 	}
+
 	100% {
 		box-shadow: 0 0 0 20px rgba(#d4d4d1, 0);
 	}
@@ -47,6 +48,11 @@
 					cursor: pointer;
 					font-size: 32px;
 					color: rgb(206, 186, 71);
+					transition: .6s;
+				}
+
+				.contactIcon:hover {
+					color: rgb(146, 131, 50);
 				}
 			}
 		}
@@ -163,6 +169,7 @@
 			h2 {
 				font-size: 36px;
 			}
+
 			.list {
 				.item {
 					.details {
@@ -213,5 +220,3 @@
 		}
 	}
 }
-
-
