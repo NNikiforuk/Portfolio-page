@@ -55,6 +55,7 @@
 .close {
 	left: -100%;
 }
+
 .open {
 	left: 0;
 }
@@ -78,48 +79,16 @@
 			padding: 20px;
 
 			a {
-				position: relative;
 				margin: 20px;
 				color: #e6e6e4;
 				text-decoration: none;
 				font-size: 25px;
 				font-weight: bold;
+				transition: .6s;
 			}
 
-			a::before,
-			a::after {
-				content: "";
-				position: absolute;
-				display: block;
-				border: 0px solid transparent;
-				width: 0%;
-				height: 0%;
-				transition: all 0.3s ease;
-			}
-
-			a::before {
-				width: 0%;
-				height: 0%;
-				right: -5px;
-				bottom: -5px;
-				border-bottom: 2px solid transparent;
-				border-right: 2px solid transparent;
-			}
-
-			a::after {
-				width: 0%;
-				height: 0%;
-				top: -5px;
-				left: -5px;
-				border-top: 2px solid transparent;
-				border-left: 2px solid transparent;
-			}
-
-			a:hover::before,
-			a:hover::after {
-				width: 10px;
-				height: 10px;
-				border-color: #e6e6e4;
+			a:hover {
+				color: rgb(206, 186, 71);
 			}
 		}
 	}
