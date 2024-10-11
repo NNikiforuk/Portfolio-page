@@ -15,6 +15,10 @@
 	background-image: url("/assets/bgc.png");
 	padding: 20px;
 
+	h1 {
+		font-family: "Nunito", sans-serif;
+	}
+
 	.about {
 		display: flex;
 		align-items: center;
@@ -24,11 +28,6 @@
 		width: 100%;
 		border-radius: 15px;
 		background-color: rgba(16, 14, 14, 0.7);
-
-		h1 {
-			font-family: "Nunito", sans-serif;
-			font-size: 22px;
-		}
 
 		.headline {
 			width: 90%;
@@ -46,9 +45,9 @@
 
 				.contactIcon {
 					cursor: pointer;
-					font-size: 40px;
 					color: rgb(206, 186, 71);
 					transition: .6s;
+					font-size: 40px;
 				}
 
 				.contactIcon:hover {
@@ -97,12 +96,6 @@
 	}
 }
 
-@media only screen and (min-width: 414px) {
-	.home .about .headline .socials .contactIcon {
-		font-size: 42px;
-	}
-}
-
 @media only screen and (min-width: 768px) {
 	.home {
 		.about {
@@ -116,7 +109,6 @@
 		}
 
 		.skills {
-			font-size: 22px;
 			margin-top: 0;
 
 			.group {
@@ -144,17 +136,9 @@
 		}
 
 		.skills {
-			h2 {
-				font-size: 36px;
-			}
-
 			.list .item .details {
 				ul {
 					margin: 20px;
-
-					li {
-						font-size: 28px;
-					}
 				}
 			}
 		}
@@ -188,7 +172,6 @@
 
 		.skills {
 			margin-top: 0;
-			font-size: 20px;
 		}
 	}
 }
@@ -214,12 +197,9 @@
 		}
 
 		.skills .group {
-			h3 {
-				font-size: 44px;
-			}
+			padding: 20px 0;
 
 			ul li {
-				font-size: 32px;
 				padding: 10px 20px;
 			}
 		}
@@ -234,7 +214,7 @@
 			}
 
 			.headline {
-				font-size: 36px;
+				font-size: 44px;
 
 				.socials {
 					padding: 50px 0;
@@ -255,12 +235,10 @@
 			padding-bottom: 40px;
 
 			h3 {
-				font-size: 52px;
 				padding-bottom: 20px;
 			}
 
 			ul li {
-				font-size: 36px;
 				padding: 10px 20px;
 				margin: 10px;
 			}

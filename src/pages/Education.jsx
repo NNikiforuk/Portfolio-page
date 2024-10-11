@@ -5,12 +5,13 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
-import "../styles/Education.scss";
+import "../styles/EducationExperience.scss";
 
 export default function Education() {
 	return (
 		<div className="education">
 			<h1 className="projectsH1">Education</h1>
+			<div className="timeline">
 			<VerticalTimeline lineColor="rgb(206, 186, 71)">
 				<VerticalTimelineElement
 					className="vertical-timeline-element--education"
@@ -108,6 +109,7 @@ export default function Education() {
 					<p>Wrocław University of Science and Technology</p>
 				</VerticalTimelineElement>
 			</VerticalTimeline>
+		</div>
 		</div>
 	);
 }

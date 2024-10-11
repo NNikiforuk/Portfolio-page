@@ -4,16 +4,14 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import WorkIcon from "@mui/icons-material/Work";
-import "../styles/Experience.scss";
+import "../styles/EducationExperience.scss";
 
 export default function Experience() {
 	return (
 		<div className="experience">
 			<h1 className="projectsH1">Experience</h1>
+			<div className="timeline">
 			<VerticalTimeline lineColor="rgb(206, 186, 71)">
-
-
-
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
 					date={
@@ -34,8 +32,6 @@ export default function Experience() {
 					</h3>
 
 				</VerticalTimelineElement>
-
-
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
 					date={
@@ -56,10 +52,6 @@ export default function Experience() {
 					</h3>
 					<h4 className="vertical-timeline-element-subtitle">DareIT</h4>
 				</VerticalTimelineElement>
-
-
-
-
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
 					date={
@@ -162,6 +154,7 @@ export default function Experience() {
 					<h4 className="vertical-timeline-element-subtitle">Fresenius Kabi</h4>
 				</VerticalTimelineElement>
 			</VerticalTimeline>
+		</div>
 		</div>
 	);
 }

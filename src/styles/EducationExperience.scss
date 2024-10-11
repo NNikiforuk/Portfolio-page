@@ -1,0 +1,81 @@
+.experience, .education {
+	text-align: left;
+	padding: 20px;
+	background-image: url("/assets/bgc.png");
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	h1 {
+		color: #d4d4d1;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	.timeline {
+		max-width: 400px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.experience, .education {
+		display: block;
+
+		.timeline {
+			margin: 0 auto;
+		}
+	}
+}
+
+@media only screen and (min-width: 1170px) {
+	.experience .timeline, .education .timeline {
+		max-width: 1200px;
+	}
+}
+
+
+@media only screen and (min-width: 1400px) {
+	.experience, .education {
+		.vertical-timeline-element--education,
+		.vertical-timeline-element-title,
+		.vertical-timeline-element-subtitle,
+		.vertical-timeline-element--work,
+		.date {
+			font-size: 20px;
+		}
+
+		.vertical-timeline-element--education {
+			margin-top: 20px;
+		}
+	}
+}
+
+@media only screen and (min-width: 2560px) {
+	.experience, .education {
+		h1 {
+			padding-bottom: 80px;
+		}
+
+		.vertical-timeline-element--education,
+		.vertical-timeline-element-title,
+		.vertical-timeline-element-subtitle,
+		.vertical-timeline-element--work,
+		.date, p {
+			font-size: 36px;
+		}
+	}
+}
+
+@media only screen and (min-width: 3840px) {
+	.experience, .education {
+		.vertical-timeline-element--education,
+		.vertical-timeline-element-title,
+		.vertical-timeline-element-subtitle,
+		.vertical-timeline-element--work,
+		.date, p {
+			font-size: 42px;
+		}
+	}
+}

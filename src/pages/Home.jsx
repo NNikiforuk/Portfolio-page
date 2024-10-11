@@ -25,13 +25,13 @@ export default function Home() {
 							<GitHubIcon className="contactIcon" />
 						</Link>
 						<Link to="mailto:natnikiforuk@gmail.com?" target="_blank">
-							<MailIcon className="contactIcon" />
+							<MailIcon className=" contactIcon" />
 						</Link>
 						<Link
 							to="https://www.linkedin.com/in/natnikiforuk/"
 							target="_blank"
 						>
-							<LinkedInIcon className="contactIcon" />
+							<LinkedInIcon className=" contactIcon" />
 						</Link>
 						<Link to="tel:+48512227842">
 							<LocalPhoneIcon className="contactIcon" />
