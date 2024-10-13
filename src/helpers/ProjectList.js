@@ -1,6 +1,7 @@
 import Pro1 from "../assets/jpw.png";
 import Pro2 from "../assets/monthlymodifiers.png";
 import Pro3 from "../assets/parafiaparowa.png";
+import Pro4 from "../assets/templateit.png";
 
 export const projectList = [
 	{
@@ -29,6 +30,18 @@ export const projectList = [
 		image: Pro3,
 		skills: ["WordPress", "Elementor"],
 		deploy: "https://parafiaparowa.pl/",
-		functionalities: ["Commercial website for polish, Roman Catholic church in Parowa"],
+		functionalities: [
+			"Commercial website for polish, Roman Catholic church in Parowa",
+		],
+	},
+	{
+		name: "templateIT",
+		key: 4,
+		image: Pro4,
+		skills: ["React", "Vite", "TypeScript", "SCSS"],
+		deploy: "https://stellular-croquembouche-3fbfa6.netlify.app/",
+		functionalities: [
+			"Pdf template for creating and plotting completed tasks/challenges/habits. Best on the desktop",
+		],
 	},
 ];
