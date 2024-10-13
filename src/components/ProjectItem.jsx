@@ -16,10 +16,9 @@ export default function ProjectItem({ image, name, id, github, deploy }) {
 				</Link>
 			</div>
 			<div className="below">
-				<Link to={github} target="_blank">
+				{github && <Link to={github} target="_blank">
 					<GitHubIcon className="icon" />
-				</Link>
-
+				</Link>}
 				<div className="details">
 					<Link
 						to={"/project/" + id}
