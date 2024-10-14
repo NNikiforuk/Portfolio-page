@@ -16,7 +16,7 @@ export default function ProjectDisplay() {
 				target="_blank"
 			>
 				<h1>{project.name}</h1>
-				<img src={project.image} alt="project screenshot" height="auto" width={250} />
+					<img src={project.image} alt="project screenshot" />
 			</Link>
 			<div className="skills">
 				{project.skills.map((el, index) => (

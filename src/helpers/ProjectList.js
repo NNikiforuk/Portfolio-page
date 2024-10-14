@@ -2,6 +2,7 @@ import Pro1 from "../assets/jpw.png";
 import Pro2 from "../assets/monthlymodifiers.png";
 import Pro3 from "../assets/parafiaparowa.png";
 import Pro4 from "../assets/templateit.png";
+import Pro5 from "../assets/mylibrary.png";
 
 export const projectList = [
 	{
@@ -39,9 +40,19 @@ export const projectList = [
 		key: 4,
 		image: Pro4,
 		skills: ["React", "Vite", "TypeScript", "SCSS"],
+		github: "https://github.com/NNikiforuk/templateIT",
 		deploy: "https://stellular-croquembouche-3fbfa6.netlify.app/",
 		functionalities: [
 			"Pdf template for creating and plotting completed tasks/challenges/habits. Best on the desktop",
 		],
+	},
+	{
+		name: "myLibrary",
+		key: 5,
+		image: Pro5,
+		skills: ["React", "Firebase", "SCSS", "BEM", "Font awesome"],
+		github: "https://github.com/NNikiforuk/myLibrary",
+		deploy: "https://nikislibrary.netlify.app/",
+		functionalities: ["Collect your finished books on the shelf"],
 	},
 ];
